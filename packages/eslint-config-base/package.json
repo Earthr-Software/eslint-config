@@ -1,6 +1,6 @@
 {
   "name": "@earthr-software/eslint-config-base",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Eslint config base",
   "author": "Aydin Senturk <aydin@earthr.co>",
   "homepage": "https://github.com/Earthr-Software/eslint-config#readme",
