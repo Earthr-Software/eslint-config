@@ -1,4 +1,5 @@
 module.exports = {
+  root: true,
   extends: [
     'airbnb-base',
     'plugin:eslint-comments/recommended',
@@ -8,7 +9,6 @@ module.exports = {
     'prettier',
   ],
   env: {
-    jest: true,
     browser: true,
   },
   plugins: ['import', 'prettier', 'eslint-comments'],
