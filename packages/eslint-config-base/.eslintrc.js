@@ -7,12 +7,11 @@ module.exports = {
   extends: [
     'airbnb-base',
     'plugin:import/recommended',
-    'plugin:prettier/recommended',
-    'plugin:jsdoc/recommended',
-    'plugin:node/recommended',
     'plugin:promise/recommended',
+    'plugin:jsdoc/recommended',
+    'plugin:prettier/recommended',
   ],
-  plugins: ['prettier', 'import', 'promise', 'node', 'jsdoc'],
+  plugins: ['prettier', 'import', 'promise', 'jsdoc'],
   parserOptions: {
     ecmaVersion: 2021,
     sourceType: 'module',
