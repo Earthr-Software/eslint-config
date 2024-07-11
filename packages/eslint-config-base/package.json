@@ -5,7 +5,7 @@
   "author": "Aydin Senturk <aydin@earthr.co>",
   "homepage": "https://github.com/Earthr-Software/eslint-config#readme",
   "license": "ISC",
-  "main": "index.js",
+  "main": ".eslintrc.js",
   "publishConfig": {
     "access": "public"
   },
@@ -17,12 +17,15 @@
     "url": "https://github.com/Earthr-Software/eslint-config/issues"
   },
   "dependencies": {
-    "eslint": "^8.2.0",
+    "eslint": "^8.57.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsdoc": "^48.7.0",
+    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-promise": "^6.4.0",
     "prettier": "^3.3.2"
   },
   "scripts": {
