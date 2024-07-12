@@ -20,7 +20,7 @@ module.exports = {
     'prettier/prettier': [
       'error',
       {
-        printWidth: 120,
+        printWidth: 100,
         singleQuote: true,
         trailingComma: 'all',
         bracketSpacing: true,
